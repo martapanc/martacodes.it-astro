@@ -1,0 +1,259 @@
+[
+  {
+    "title": "Java",
+    "description": "I have 7+ years of hands-on experience with Java, during which I've delivered a range of projects spanning academia, work, and personal initiatives. Among these are a Library Manager and a Restaurant Order Management app. I'm particularly familiar with the Spring Boot framework, which I mainly utilise for my backend development.\n\nCheck out more of my projects [here](/projects).",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696775672/java_8e59afb564.png",
+        "name": "Java"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696711479/spring_a0dfb49d97.svg",
+        "name": "Spring"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692732723/hibernate_4a990cdba3.svg",
+        "name": "Hibernate"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696778292/cucumber_22ba5240a8.png",
+        "name": "Cucumber"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696711479/maven_e5be04370e.svg",
+        "name": "Maven"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696711851/gradle_1158229270.svg",
+        "name": "Gradle"
+      }
+    ],
+    "rank": 1
+  },
+  {
+    "title": "React, Angular, Vue",
+    "description": "I've had the opportunity to work with the three major front-end frameworks in my career, and picking a favorite isn't easy. \n\nTo stay versatile, I've made sure to master the fundamentals of all three, so that I'm always well-prepared to work with any of them as needed.\n\nI also have experience with other web frameworks such as Next, Jekyll and Astro.",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696713208/react_3b5b377da6.svg",
+        "name": "React"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696713208/vue_64915775d7.svg",
+        "name": "Vue"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696713208/angular_dd886eccd9.svg",
+        "name": "Angular"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697886621/next_f836ee03ad.png",
+        "name": "NextJS"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1740684025/astrojs_ufvpkm.webp",
+        "name": "AstroJS"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696713457/redux_4c767ea687.svg",
+        "name": "Redux"
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "title": "APIs",
+    "description": "I possess extensive experience developing APIs, in particular using the REST architecture. For example, at Booking.com I maintained the Suppliers API - an aggregator service that communicates with hundreds of car rental systems, sending order requests, updates and cancellations. More recently I delved into the realm of GraphQL.",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696777847/rest_api_bcb56439ca.png",
+        "name": "Rest API"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696777847/graphql_8f8abe1d53.png",
+        "name": "GraphQL"
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "title": "Javascript / Typescript",
+    "description": "I immersed myself in JavaScript during my work placements, subsequently transitioning to TypeScript for the majority of my projects. \nI also possess a strong familiarity with the Node.js ecosystem, where Express.js is often my go-to framework for developing APIs.",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696713740/javascript_f76197a46e.svg",
+        "name": "Javascript"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696775209/nodejs_a68cd98b61.png",
+        "name": "Node.js"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696713740/typescript_96b03c0224.svg",
+        "name": "Typescript"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697886805/express_5cec6dbf4c.png",
+        "name": "Express"
+      }
+    ],
+    "rank": 4
+  },
+  {
+    "title": "Web & UIs",
+    "description": "Working on the front-end is always good fun and gives me the chance to explore frameworks like Tailwind, Bootstrap and UI design techniques. I've built web apps for various uni, work and personal projects - [check them out](/projects).",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714818/html_16f9f02d68.svg",
+        "name": "HTML"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714818/css_53852a3d50.svg",
+        "name": "CSS"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714818/sass_0b89a2d19a.svg",
+        "name": "SASS"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714818/tailwindcss_75e4f1c53a.svg",
+        "name": "TailwindCSS"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714818/storybook_628e0755cf.svg",
+        "name": "Storybook"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714818/bootstrap_2677c34a0a.svg",
+        "name": "Bootstrap"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714818/materialui_ef01fffc1f.svg",
+        "name": "MaterialUI"
+      }
+    ],
+    "rank": 5
+  },
+  {
+    "title": "Python",
+    "description": "I taught myself Python and it quickly became one of my favourite languages.\nI mainly used it to develop an automated assessment tool for CompSci programming assignments, which was the focus of my MSc Dissertation.",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692732723/python_bfafede620.svg",
+        "name": "Python"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696712057/fastapi_fe1360523b.svg",
+        "name": "FastAPI"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696712057/django_e7371c1638.webp",
+        "name": "Django"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697886721/flask_c1765ddd56.png",
+        "name": "Flask"
+      }
+    ],
+    "rank": 6
+  },
+  {
+    "title": "Mobile development",
+    "description": "I've started learning Kotlin a few years ago, as I'm intrigued by its features and possibilities for mobile development. For now I've created a few simple apps, and I'm also looking to learn frameworks like Flutter and React Native, or specifically Swift for iOS development.",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714975/android_55c08b680d.webp",
+        "name": "Android"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714975/kotlin_d9dc247374.webp",
+        "name": "Kotlin"
+      }
+    ],
+    "rank": 7
+  },
+  {
+    "title": "Databases",
+    "description": "A Library Manager was the project that introduced me to complex relational DB architectures. Since then I designed several systems for personal and work projects, mostly with Postgres and MySQL, as well as MongoDB and Firestore in the NoSQL world.",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696778215/mysql_8d19374953.svg",
+        "name": "MySQL"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696778215/postgres_33a4b05753.svg",
+        "name": "Postgres"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696778215/mongodb_df6af1ecb2.svg",
+        "name": "MongoDB"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696778215/firebase_3677a8b754.svg",
+        "name": "Firebase"
+      }
+    ],
+    "rank": 8
+  },
+  {
+    "title": "C#",
+    "description": "Medicus, an online store web application designed for selling medical products, was a collaborative project I participated in during my BSc Information Security course. Built using ASP.NET, this project placed a strong emphasis on ensuring the security and privacy of our customers.",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696776665/cs_c242ead45c.svg",
+        "name": "C#"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696776896/aspnet_0eca47f91d.png",
+        "name": "ASP.NET"
+      }
+    ],
+    "rank": 9
+  },
+  {
+    "title": "PHP",
+    "description": "The booking management service of my previous company was written in PHP - kind of a shock therapy experience, still an excellent chance to learn about this language. Since then, I've continued to work particularly within the context of Drupal. There's still much more to explore and discover, but I like challenges.",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714588/php_cccf8636e8.png",
+        "name": "PHP"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696714068/drupal_cb7613e947.webp",
+        "name": "Drupal"
+      }
+    ],
+    "rank": 10
+  },
+  {
+    "title": "Cloud Platforms",
+    "description": "During my early years in uni, I heavily relied on my *localhost*. I soon recognized the importance of expanding my skills to include server deployment on cloud platforms. While there's still much to explore, especially within the ecosystems of AWS and GCP, I've found Heroku to be a personal favorite for its user-friendly nature (and the free tier).",
+    "icons": [
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696776480/aws_78106f8b01.svg",
+        "name": "AWS"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696776480/gcp_63f41422c6.webp",
+        "name": "Google Cloud Platform"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696776480/azure_d402baa986.svg",
+        "name": "Azure"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696776480/jenkins_f1ec36a7da.svg",
+        "name": "Jenkins"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696776480/heroku_ec2c8556f9.webp",
+        "name": "Heroku"
+      },
+      {
+        "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696776480/docker_437fff5fd0.svg",
+        "name": "Docker"
+      }
+    ],
+    "rank": 11
+  }
+]

@@ -1,0 +1,15 @@
+---
+import RootLayout from '@/layouts/RootLayout.astro';
+import TravelMap from '@/components/organisms/about/TravelMap';
+---
+
+<RootLayout
+  title='About - Travel | MartaCodes.it'
+  description='My adventures around the world'
+>
+  <section>
+    <div class='layout relative flex flex-col py-12'>
+      <TravelMap client:only="react" />
+    </div>
+  </section>
+</RootLayout>

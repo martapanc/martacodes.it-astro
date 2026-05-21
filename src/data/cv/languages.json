@@ -1,0 +1,32 @@
+[
+  {
+    "name": "English",
+    "level": "Fluent",
+    "rank": 2,
+    "flag": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/uk_657deb6132.svg"
+  },
+  {
+    "name": "Italian",
+    "level": "Native",
+    "rank": 1,
+    "flag": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/it_00c57db1fb.svg"
+  },
+  {
+    "name": "German",
+    "level": "Intermediate",
+    "rank": 3,
+    "flag": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/de_9c5221adfa.svg"
+  },
+  {
+    "name": "French",
+    "level": "Basic",
+    "rank": 4,
+    "flag": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/fr_eb256cde21.svg"
+  },
+  {
+    "name": "Spanish",
+    "level": "Basic",
+    "rank": 5,
+    "flag": "https://res.cloudinary.com/dwrurydlt/image/upload/v1769871587/es_onxq5h.svg"
+  }
+]

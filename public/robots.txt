@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://martacodes.it
+
+# Sitemaps
+Sitemap: https://martacodes.it/sitemap.xml

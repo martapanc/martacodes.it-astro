@@ -1,0 +1,14 @@
+---
+import { readMarkdownData } from '@/lib/markdownUtils';
+import RootLayout from '@/layouts/RootLayout.astro';
+import RecruitersPage from '@/components/pages/recruiters-page';
+
+const recruitersData = readMarkdownData('recruiters');
+---
+
+<RootLayout
+  title='Recruiters Info | MartaCodes.it'
+  description='Information for Recruiters.'
+>
+  <RecruitersPage recruitersData={recruitersData} client:only="react" />
+</RootLayout>

@@ -1,0 +1,65 @@
+[
+  {
+    "title": "The Lord of the Rings",
+    "author": "Tolkien",
+    "goodreadsLink": "https://www.goodreads.com/book/show/33.The_Lord_of_the_Rings",
+    "genre": "Fiction",
+    "cover": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798464/lotr_9279421c8e.webp"
+  },
+  {
+    "title": "The Handmaid's Tale",
+    "author": "Atwood, Margaret",
+    "goodreadsLink": "https://www.goodreads.com/book/show/38447.The_Handmaid_s_Tale",
+    "genre": "Fiction",
+    "cover": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798464/atwood_28fb6b8081.webp"
+  },
+  {
+    "title": "The God Delusion",
+    "author": "Dawkins, Richard",
+    "goodreadsLink": "https://www.goodreads.com/book/show/14743.The_God_Delusion",
+    "genre": "Non-fiction",
+    "cover": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798464/dawkins_4b6518de62.webp"
+  },
+  {
+    "title": "Polissena del Porcello",
+    "author": "Pitzorno, Bianca",
+    "goodreadsLink": "https://www.goodreads.com/book/show/7667075-polissena-del-porcello",
+    "genre": "Fiction",
+    "cover": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798464/polissena_5aa8ccf57f.webp"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Adams, Douglas",
+    "goodreadsLink": "https://www.goodreads.com/book/show/13.The_Ultimate_Hitchhiker_s_Guide_to_the_Galaxy",
+    "genre": "Fiction",
+    "cover": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798464/adams_20547a3b30.webp"
+  },
+  {
+    "title": "Code Complete",
+    "author": "McConnell, Steve",
+    "goodreadsLink": "https://www.goodreads.com/book/show/4845.Code_Complete",
+    "genre": "Non-fiction",
+    "cover": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798463/code2_64d12c0ada.webp"
+  },
+  {
+    "title": "Matilda",
+    "author": "Dahl, Roald",
+    "goodreadsLink": "https://www.goodreads.com/book/show/39988.Matilda",
+    "genre": "Fiction",
+    "cover": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798464/matilda_66485e3a09.webp"
+  },
+  {
+    "title": "Jurassic Park",
+    "author": "Crichton, Michael",
+    "goodreadsLink": "https://www.goodreads.com/book/show/40604658-jurassic-park",
+    "genre": "Fiction",
+    "cover": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798464/Jurassicpark_af5900f15d.webp"
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Hunt, Andrew and Thomas, David",
+    "goodreadsLink": "https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer",
+    "genre": "Non-fiction",
+    "cover": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798464/pragmatic_581747698d.webp"
+  }
+]

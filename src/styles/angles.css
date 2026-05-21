@@ -1,0 +1,119 @@
+.angle {
+  position: relative;
+}
+
+.angle:after {
+  content: '';
+  position: absolute;
+}
+
+.angle-1,
+.angle-1:after {
+  height: 30px;
+  width: 100%;
+}
+
+@media (min-width: 520px) {
+  .angle-1,
+  .angle-1:after {
+    height: 50px;
+  }
+}
+
+@media (min-width: 900px) {
+  .angle-1,
+  .angle-1:after {
+    height: 80px;
+  }
+}
+
+.angle-1:after {
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 0 0);
+  clip-path: polygon(100% 100%, 100% 0, 0 0);
+}
+
+.angle-2,
+.angle-2:after {
+  height: 35px;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .angle-2,
+  .angle-2:after {
+    height: 55px;
+  }
+}
+
+@media (min-width: 900px) {
+  .angle-2,
+  .angle-2:after {
+    height: 55px;
+  }
+}
+
+.angle-2:after {
+  -webkit-clip-path: polygon(0 0, 100% 0, 25% 100%);
+  clip-path: polygon(0 0, 100% 0, 25% 100%);
+}
+
+.angle-3,
+.angle-3:after {
+  height: 30px;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .angle-3,
+  .angle-3:after {
+    height: 60px;
+  }
+}
+
+.angle-3:after {
+  -webkit-clip-path: polygon(0 0, 100% 0, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.angle-4,
+.angle-4:after {
+  height: 50px;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .angle-4,
+  .angle-4:after {
+    height: 75px;
+  }
+}
+
+@media (min-width: 900px) {
+  .angle-4,
+  .angle-4:after {
+    height: 105px;
+  }
+}
+
+.angle-4:after {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
+}
+
+.angle-5,
+.angle-5:after {
+  height: 40px;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .angle-5,
+  .angle-5:after {
+    height: 65px;
+  }
+}
+
+.angle-5:after {
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 0 0);
+  clip-path: polygon(100% 100%, 100% 0, 0 0);
+}

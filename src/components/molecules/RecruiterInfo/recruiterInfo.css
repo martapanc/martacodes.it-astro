@@ -1,0 +1,57 @@
+.recruiters-info ul {
+  margin-bottom: 16px;
+  list-style: inside;
+}
+
+.recruiters-info li {
+  margin-left: 22px;
+  margin-bottom: 5px;
+}
+
+.salary-expectations p {
+  margin-bottom: 12px;
+}
+
+.tools-techs h4,
+.general-info h4 {
+  margin-bottom: 8px;
+}
+
+.tools-techs p {
+  margin-top: 20px;
+}
+
+.tldr p {
+  margin-bottom: 12px;
+}
+
+.job-preferences p {
+  margin: 12px 0;
+}
+
+.job-preferences h3 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.job-preferences details {
+  padding-left: 22px;
+  margin-bottom: 30px;
+}
+
+.job-preferences details li {
+  list-style: square;
+  margin-left: 30px;
+}
+
+.job-preferences a {
+  text-decoration: underline;
+}
+
+.salary-expectations summary {
+  margin-bottom: 8px;
+}
+
+.salary-expectations details p {
+  margin-left: 30px;
+}

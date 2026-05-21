@@ -1,0 +1,31 @@
+---
+import readCodeSnippets, { readMarkdown } from '@/lib/markdownUtils';
+import homePageData from '@/data/en/home.json';
+import projectsData from '@/data/projects/projects.json';
+
+import RootLayout from '@/layouts/RootLayout.astro';
+import HomePage from '@/components/pages/home-page';
+
+import type { Project } from '@/types/Project';
+
+const projects: Project[] = (projectsData as Project[]).map((project) => {
+  if (project.longDescription?.includes('.md')) {
+    return { ...project, longDescription: readMarkdown(`projects/${project.longDescription}`) };
+  }
+  return project;
+});
+
+const codeSnippets = readCodeSnippets();
+---
+
+<RootLayout
+  title='Marta Pancaldi | MartaCodes.it'
+  description="I'm a software engineer who writes code for work and for fun."
+>
+  <HomePage
+    homePage={homePageData}
+    codeSnippets={codeSnippets}
+    projects={projects}
+    client:only="react"
+  />
+</RootLayout>

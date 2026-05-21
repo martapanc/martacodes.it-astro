@@ -1,0 +1,42 @@
+{
+  "appetize": {
+    "key": "{Appetize}",
+    "href": "https://appetize.io/",
+    "classes": "ms-0.5",
+    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1705241229/appetize-logo.svg",
+    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1708600687/appetize-logo-white.svg",
+    "alt": "Appetize.io",
+    "width": 100,
+    "height": 20
+  },
+  "resourcify": {
+    "key": "{Resourcify}",
+    "href": "https://resourcify.com/",
+    "classes": "ms-1",
+    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1693067033/resourcify_69f3b5b70d.webp",
+    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1708604164/resourcify-logo-white_x7xyoi.png",
+    "alt": "Resourcify",
+    "width": 100,
+    "height": 20
+  },
+  "bjss": {
+    "key": "{BJSS}",
+    "href": "https://bjss.com/",
+    "classes": "mx-1",
+    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692645367/bjss_180dc7fdd7.webp",
+    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1708603696/bjss-logo-white.png",
+    "alt": "BJSS",
+    "width": 45,
+    "height": 25
+  },
+  "booking": {
+    "key": "{Booking}",
+    "href": "https://booking.com/",
+    "classes": "mx-1",
+    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1693067075/bookingcom_91b7aa2e36.svg",
+    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1708603553/bookingcom_logo_white.png",
+    "alt": "Booking.com",
+    "width": 115,
+    "height": 25
+  }
+}

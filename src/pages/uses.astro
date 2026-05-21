@@ -1,0 +1,14 @@
+---
+import { readMarkdownData } from '@/lib/markdownUtils';
+import RootLayout from '@/layouts/RootLayout.astro';
+import UsesPage from '@/components/pages/uses-page';
+
+const usesData = readMarkdownData('uses');
+---
+
+<RootLayout
+  title='Marta uses... | MartaCodes.it'
+  description='A list of tech equipment and software I use.'
+>
+  <UsesPage usesData={usesData} client:only="react" />
+</RootLayout>

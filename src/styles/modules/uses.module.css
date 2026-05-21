@@ -1,0 +1,13 @@
+.uses-section p {
+  margin-bottom: 12px;
+}
+
+.uses-section p:before {
+  content: '◆ ';
+  margin-right: 4px;
+}
+
+.uses-section h1 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}

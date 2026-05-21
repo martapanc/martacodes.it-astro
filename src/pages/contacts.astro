@@ -1,0 +1,11 @@
+---
+import RootLayout from '@/layouts/RootLayout.astro';
+import ContactsPage from '@/components/pages/contacts-page';
+---
+
+<RootLayout
+  title='Contacts | MartaCodes.it'
+  description='Get in touch with Marta Pancaldi.'
+>
+  <ContactsPage client:only="react" />
+</RootLayout>

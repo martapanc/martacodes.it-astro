@@ -1,0 +1,102 @@
+{
+  "headerMenu": {
+    "about": "Su di me",
+    "aboutWork": "Lavoro",
+    "aboutWorkMobile": "About ~ Lavoro",
+    "aboutFreeTime": "Tempo Libero",
+    "aboutFreeTimeMobile": "About ~ Tempo Libero",
+    "projects": "Progetti",
+    "cv": "CV",
+    "uses": "Cose che uso",
+    "contact": "Contatti"
+  },
+  "footerMenu": {
+    "links": "Link",
+    "sourceCode": "Codice Sorgente",
+    "recruiters": "Recruiter",
+    "blog": "Blog",
+    "updates": "Aggiornamenti",
+    "analytics": "Analytics",
+    "guestbook": "Libro degli Ospiti",
+    "feedback": "Feedback"
+  },
+  "about": {
+    "title": "Su di me"
+  },
+  "projects": {
+    "title": "Progetti",
+    "readMore": "Leggi di più"
+  },
+  "cv": {
+    "title": "Il mio CV",
+    "download": "Scarica PDF",
+    "softwareDevelopment": {
+      "title": "Sviluppo Software",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692734473/laptop_4a3ba3b30c.svg"
+    },
+    "workExperience": {
+      "title": "Esperienza",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692894192/work_f1bb1eb3dd.svg"
+    },
+    "education": {
+      "title": "Studi",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692894192/school_bbe225685d.svg"
+    },
+    "languages": {
+      "title": "Lingue",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692894192/internet_60bf166c34.svg"
+    },
+    "publications": {
+      "title": "Pubblicazioni",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692894192/newspaper_e15ec94d21.svg"
+    }
+  },
+  "contacts": {
+    "title": "Contattami",
+    "subjects": {
+      "dev": "👩🏻‍💻 Sviluppo di siti web / applicazioni",
+      "work": "🤝 Collaboriamo su un progetto",
+      "recruiter": "👔 Sono un recruiter e vorrei assumerti",
+      "feedback": "💡 Feedback su questo sito",
+      "problem": "🤕 Segnalazione problemi",
+      "general": "🙋 Richiesta generica",
+      "other": "❓ Altro"
+    },
+    "fields": {
+      "name": {
+        "label": "Nome",
+        "required": "Non essere timido/a :)"
+      },
+      "company": {
+        "label": "Azienda"
+      },
+      "email": {
+        "label": "Email",
+        "invalid": "Qualcosa non quadra nell'indirizzo inserito 🤔 Controllalo e riprova",
+        "required": "Obbligatoria - altrimenti è un po' difficile risponderti 🤷‍♀️"
+      },
+      "subject": {
+        "label": "Oggetto",
+        "select": "Scegli un'opzione",
+        "required": "Non lasciarmi in sospeso! 🧐"
+      },
+      "message": {
+        "label": "Messaggio",
+        "required": "\"Non si invia con facilità un’email senza contenuto.\" (cit.)",
+        "placeholder": "Cos'hai in mente? L'e-mail è il limite! 🪄✨"
+      }
+    },
+    "success": "Grazie per il messaggio! 🤗 Ti risponderò al più presto.",
+    "error": "Ops, qualcosa è andato storto! 😟 <br /> Prova di nuovo, e se il problema persiste scrivi direttamente a <a className='ms-1 underline' href='mailto:marta_panc@me.com'>marta_panc@me.com</a>",
+    "button": {
+      "send": "Invia messaggio",
+      "loading": "Invio in corso..."
+    }
+  },
+  "uses": {
+    "title": "Cose che uso"
+  },
+  "recruiters": {
+    "title": "Info per i Recruiters"
+  }
+}

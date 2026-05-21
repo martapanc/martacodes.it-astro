@@ -1,0 +1,10 @@
+.heading {
+  min-height: 52px;
+  background-image: radial-gradient(
+    circle at 10% 20%,
+    rgb(59, 149, 237) 0%,
+    rgb(7, 91, 173) 90%
+  );
+  background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "schoolName": "University of Manchester",
+    "degreeName": "MSc in Advanced Computer Science",
+    "degreeUrl": "https://www.cs.manchester.ac.uk/",
+    "grade": "Distinction",
+    "start": "2017-09-01",
+    "end": "2018-09-01",
+    "description": "- Specialised in Software Engineering, with courses on Advanced programming, Agile and TDD, Design patterns and components.\n\n- Elective courses in Data Engineering and IT Governance.\n\n- The MSc dissertation project focused on building an automated assessment tool for testing and grading programming exercises.",
+    "flag": {
+      "name": "UK Flag",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/uk_657deb6132.svg"
+    },
+    "icon": {
+      "name": "University of Manchester",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692723652/uom_9c1bfed3b5.webp"
+    }
+  },
+  {
+    "schoolName": "Free University of Bolzano",
+    "degreeName": "BSc in Computer Science",
+    "degreeUrl": "https://www.unibz.it/en/faculties/engineering/bachelor-computer-science/",
+    "grade": "106/110",
+    "start": "2014-09-01",
+    "end": "2017-01-07",
+    "description": "- The only Italian university that offers a BSc in Computer Science taught in English.\n\n- Trilingual teaching with an international curriculum 🇬🇧 🇮🇹 🇩🇪 , and among the ten world's best small universities (Times Higher Education 2017).\n\n- The BSc Dissertation project explored SATD (\"Self-Admitted Technical Debt\") types in open-source projects, and the impact of technical debt on complex systems.",
+    "flag": {
+      "name": "Italian Flag",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/it_00c57db1fb.svg"
+    },
+    "icon": {
+      "name": "unibz-cs.webp",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692723921/unibz_cs_5f8e5afb06.webp"
+    }
+  },
+  {
+    "schoolName": "College of Charleston",
+    "degreeName": "Exchange Semester",
+    "degreeUrl": "http://compsci.cofc.edu/",
+    "grade": "4.0 GPA",
+    "start": "2015-01-08",
+    "end": "2016-01-01",
+    "description": "- Partly subsidised by the \"Erasmus+/Overseas\" scholarship of the University of Bolzano.\n- Main courses: Software Engineering, Computer Networks, Statistical Methods, Discrete Mathematics and Calculus III.\n- I participated in the college orchestra as Principal Oboe.",
+    "flag": {
+      "name": "USA Flag",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692724050/us_f39fa66a76.svg"
+    },
+    "icon": {
+      "name": "College of Charleston",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692724050/cofc_c23d3bb7f0.webp"
+    }
+  },
+  {
+    "schoolName": "\"A. Peri\" Music School",
+    "degreeName": "Diploma in Oboe",
+    "degreeUrl": "https://peri-merulo.it/",
+    "grade": "8.5/10",
+    "start": "2003-01-09",
+    "end": "2015-03-07",
+    "description": "- I followed the curriculum that prepares for the diploma in musical instrument (equivalent to a university degree), which includes among its various courses: choral and opera singing, music theory and solfeggio, harmony, history of music, orchestra and chamber music, study of the Oboe and English Horn.\n- I took part in a Masterclass with Luca Vignali, oboist at Rome Opera House.\n- I participated in several local events, with the school’s orchestra or chamber groups, and performed in Rome, Milan and other cities as part of the System of Italian Youth Orchestras.",
+    "flag": {
+      "name": "Italian Flag",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/it_00c57db1fb.svg"
+    },
+    "icon": {
+      "name": "Istituto Peri",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696781679/peri_496d797ab9.png"
+    }
+  },
+  {
+    "schoolName": "Liceo Scientifico \"A. Moro\"",
+    "degreeName": "High School",
+    "degreeUrl": "https://www.liceomoro.edu.it/",
+    "grade": "84%",
+    "start": "2009-09-01",
+    "end": "2014-07-02",
+    "description": "- I attended the 'National Computer Science Plan' (\"PNI\") course with a bilingual (English and German) option. This program had a well-rounded curriculum that emphasized both scientific subjects and humanities, including literature, philosophy, and history.\n\n- Within the mathematics course, we had the opportunity to delve into programming, with a focus on algorithms and data structures.\n\n- In addition to my regular coursework, I engaged in various extracurricular activities, such as the school choir, some creative writing contests, elective courses on maths and computer science, and work placements.",
+    "flag": {
+      "name": "Italian Flag",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/it_00c57db1fb.svg"
+    },
+    "icon": {
+      "name": "Liceo Moro",
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1698426363/moro_fe4b20b0b4.png"
+    }
+  }
+]

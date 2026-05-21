@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Better Call Saul",
+    "year": "2022",
+    "link": "https://www.imdb.com/title/tt3032476/?ref_=ext_shr_lnk",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798721/better_call_saul_4e68c2794f.jpg"
+  },
+  {
+    "title": "Unorthodox",
+    "year": "2020",
+    "link": "https://www.imdb.com/title/tt9815454/?ref_=tt_rvi_tt_i_2",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798867/unorthodox_08431e1d41.webp"
+  },
+  {
+    "title": "Sherlock",
+    "year": "2016",
+    "link": "https://www.imdb.com/title/tt1475582/?ref_=tt_rvi_tt_i_3",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798618/sherlock_9f9a1a3ecd.jpg"
+  },
+  {
+    "title": "Chernobyl",
+    "year": "2019",
+    "link": "https://www.imdb.com/title/tt7366338/?ref_=tt_rvi_tt_i_4",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798721/chernobyl_26276e09f5.webp"
+  },
+  {
+    "title": "Westworld",
+    "year": "2019",
+    "link": "https://www.imdb.com/title/tt0475784/?ref_=tt_rvi_tt_i_5",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798617/westworld_8e456e5ac2.jpg"
+  },
+  {
+    "title": "Black Mirror",
+    "year": "2023",
+    "link": "https://www.imdb.com/title/tt2085059/?ref_=tt_rvi_tt_i_6",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798617/black_mirror_99a33da84e.webp"
+  },
+  {
+    "title": "Breaking Bad",
+    "year": "2016",
+    "link": "https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_breaki",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798721/breaking_bad_c234310201.webp"
+  },
+  {
+    "title": "Stranger Things",
+    "year": "2022",
+    "link": "https://www.imdb.com/title/tt4574334/?ref_=nv_sr_srsg_0_tt_7_nm_1_q_stra",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798865/stranger_things_5ead17cfb6.webp"
+  },
+  {
+    "title": "Doctor Who",
+    "year": "2017",
+    "link": "https://www.imdb.com/title/tt0436992/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_doctor%2520who",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692798618/doctor_who_3b73bd0c22.jpg"
+  },
+  {
+    "title": "The Last of Us",
+    "year": "2023",
+    "link": "https://www.imdb.com/title/tt3581920/?ref_=fn_al_tt_1",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692888365/the_last_of_us_7c834c95f8.webp"
+  },
+  {
+    "title": "The Umbrella Academy",
+    "year": "2019",
+    "link": "https://www.imdb.com/title/tt1312171",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692888601/the_umbrella_academy_1c8f0d9cc7.jpg"
+  },
+  {
+    "title": "Good Omens",
+    "year": "2019",
+    "link": "https://www.imdb.com/title/tt1869454",
+    "poster": "https://res.cloudinary.com/dwrurydlt/image/upload/v1696710673/good_omens_32a5dca90b.jpg"
+  }
+]

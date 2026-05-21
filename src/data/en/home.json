@@ -1,0 +1,26 @@
+{
+  "greeting": "Hey there, I'm Marta ",
+  "introduction": {
+    "now": "I'm an Italian software engineer currently working at {Appetize}.",
+    "passion": "I love writing code both professionally and in my spare time. I’m at my best when I’m learning, experimenting with new technologies, and tackling complex problems.",
+    "education": "I hold a MSc in Advanced Computer Science from the {uom} and a trilingual BSc from the {unibz}, with an exchange semester at the {cofc}.",
+    "work": "Over the past eight years, I’ve worked across a range of companies and products, including {Booking}, {BJSS} and {Resourcify}, building and scaling web applications in distributed teams.",
+    "cv": "I hold a <span class=\"font-semibold\">MSc in Advanced Computer Science</span> from the University of Manchester, and have spent the last 6 years working for several companies, including {Booking}, {BJSS} and {Resourcify}.",
+    "freeTime": "Outside of tech, I’m a fiction writer ✍🏻, an avid bookworm 📚, an oboist and alto singer 🎶, and a travel photographer 📷."
+  },
+  "skills": {
+    "fullStack": "While I have a solid foundation in both frontend and backend development, my focus and passion are firmly in full-stack engineering. I enjoy working across the stack, from designing APIs and data models to building intuitive, well-crafted user interfaces.",
+    "languages": "My experience spans multiple languages — including <span class=\"font-bold\">Java</span>, <span class=\"font-bold\">Kotlin</span>, <span class=\"font-bold\">Python</span> and <span class=\"font-bold\">TypeScript</span> — and frontend frameworks such as <span class=\"font-bold\">React</span> and <span class=\"font-bold\">Angular</span>. Recently, I’ve been working extensively in the <span class=\"font-bold\">Node.js</span> ecosystem, using Next.js with an OpenAPI-based backend and MongoDB, as well as <span class=\"font-bold\">AstroJS</span> to build fast, content-driven websites.",
+    "latest": "Alongside development, I’ve been deepening my interest in UI and UX, learning to design interfaces in <span class=\"font-bold\">Figma</span> and to use <span class=\"font-bold\">Tailwind CSS</span> effectively to build accessible, cohesive layouts."
+  },
+  "updates": {
+    "learning": ["Figma automation", "Swift for iOS Development"],
+    "willLearn": ["LLM, RAG & Co", "Svelte"],
+    "reading": [
+      "'We Should All Be Feminists', by C.N. Adichie",
+      "'The War on Science', by Lawrence M. Krauss"
+    ],
+    "gaming": ["Zelda: Tears of the Kingdom"],
+    "watching": ["the Marvel Netflix TV Series"]
+  }
+}

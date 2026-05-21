@@ -1,0 +1,106 @@
+{
+  "headerMenu": {
+    "about": "About",
+    "aboutWork": "Work & Career",
+    "aboutWorkMobile": "About ~ Work & Career",
+    "aboutFreeTime": "Free Time",
+    "aboutFreeTimeMobile": "About ~ Free Time",
+    "experience": "Work",
+    "projects": "Projects",
+    "cv": "CV",
+    "uses": "Uses",
+    "contact": "Contacts"
+  },
+  "footerMenu": {
+    "links": "Links",
+    "recruiters": "Recruiters",
+    "sourceCode": "Source Code",
+    "blog": "Blog",
+    "updates": "Updates",
+    "analytics": "Analytics",
+    "guestbook": "Guestbook",
+    "feedback": "Feedback"
+  },
+  "about": {
+    "title": "About me"
+  },
+  "projects": {
+    "title": "Projects",
+    "readMore": "Read More"
+  },
+  "cv": {
+    "title": "My CV",
+    "download": "Download PDF",
+    "softwareDevelopment": {
+      "title": "Software Development",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692734473/laptop_4a3ba3b30c.svg"
+    },
+    "workExperience": {
+      "title": "Work Experience",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692894192/work_f1bb1eb3dd.svg"
+    },
+    "education": {
+      "title": "Education",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692894192/school_bbe225685d.svg"
+    },
+    "languages": {
+      "title": "Languages",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692894192/internet_60bf166c34.svg"
+    },
+    "publications": {
+      "title": "Publications",
+      "icon": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692894192/newspaper_e15ec94d21.svg"
+    }
+  },
+  "contacts": {
+    "title": "Contact me",
+    "subjects": {
+      "dev": "👩🏻‍💻 I need a website / app developed",
+      "work": "🤝 Let's work together on something",
+      "recruiter": "👔 I'm a recruiter and want to hire you",
+      "feedback": "💡 I've got feedback on this website",
+      "problem": "🤕 Reporting a problem",
+      "general": "🙋 General inquiry",
+      "other": "❓ Other"
+    },
+    "fields": {
+      "name": {
+        "label": "Name",
+        "required": "Don't be a stranger :)"
+      },
+      "company": {
+        "label": "Company"
+      },
+      "email": {
+        "label": "Email Address",
+        "invalid": "Something seems off with the address you entered 🤔 Please double-check and try again.",
+        "required": "Required - otherwise it's kinda hard for me to reply to you 🤷‍♀️"
+      },
+      "subject": {
+        "label": "Subject",
+        "select": "Please select a subject",
+        "required": "Don't leave me hanging! I need a subject to know what's up 🧐"
+      },
+      "message": {
+        "label": "Message",
+        "required": "\"One does not simply submit a contact form without a message.\"",
+        "placeholder": "What's on your mind? The email's the limit! 🪄✨"
+      }
+    },
+    "success": "Thanks for your message! 🤗 I will get back to you as soon as possible.",
+    "error": "Whoops, something went wrong on our side! 😟 <br /> Please try again - if the issue persists, reach out directly at",
+    "button": {
+      "send": "Send message",
+      "loading": "Working on it..."
+    }
+  },
+  "uses": {
+    "title": "Uses"
+  },
+  "recruiters": {
+    "title": "Info for Recruiters"
+  },
+  "404": {
+    "title": "<404 />"
+  }
+}

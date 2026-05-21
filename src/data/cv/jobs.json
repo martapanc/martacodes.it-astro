@@ -1,0 +1,148 @@
+[
+  {
+    "companyName": "Appetize.io",
+    "icon": {
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1705255458/Appetize_logo.jpg",
+      "name": "Appetize.io"
+    },
+    "title": "Full-Stack Engineer",
+    "location": "USA (remote from Italy)",
+    "description": "Appetize is a SaaS platform that enables iOS and Android app streaming directly in the browser, supporting use cases such as automated testing, live demos, and customer support.\n- Built a new version of the appetize.io marketing website as part of a company-wide rebrand, using a modern web stack with a strong focus on performance, accessibility, and user experience. Worked closely with design to translate visual concepts into clean, production-ready implementations.\n- Contributed to the development of V2 of the core web application, improving UI consistency and usability while integrating new functionality with existing and newly introduced API endpoints.\n- Took technical ownership of the marketing website redesign, coordinating and guiding a small team of developers, reviewing contributions, and remaining hands-on in the implementation, release, and iteration of key features.\n- Designed and implemented a self-serve SSO configuration flow (SAML & OIDC), replacing manual database setup with a fully UI-driven experience. Enabled customers to independently configure identity providers (e.g. Okta, Azure AD) via metadata upload\nor discovery URLs, significantly reducing operational overhead.\n- Implemented federated authentication via Google and GitHub, modernising the login flow and improving accessibility for users previously limited to username/password or SSO-only access.",
+    "startDate": "2024-01-02",
+    "endDate": null,
+    "isCurrentJob": true,
+    "mainColor": "#090909",
+    "darkColor": "#F7F7F7",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "Astro",
+      "MongoDB",
+      "Jekyll",
+      "Docker",
+      "Project Management"
+    ]
+  },
+  {
+    "companyName": "Resourcify",
+    "icon": {
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692123344/Resourcify_32e03a1d59.png",
+      "name": "Resourcify"
+    },
+    "title": "Full-Stack Engineer",
+    "location": "Hamburg (remote from Italy)",
+    "description": "Full-stack work involving development of greenfield tools and maintenance of legacy components, covering a diverse range of projects and technologies, adapting to new challenges and delivering quality results.\n- Started in the Recycler API/Platform Core team, where I honed my skills in building robust and scalable applications.\n- Joined the Accounting Squad, taking a leading role in developing an accounting platform for internal and client use. I approached this project with a focus on user experience, performance, and maintainability, resulting in a successful product launch. In close collaboration with the Accounting Ops, I sought feedback to continuously improve the functionality of the platform, ensuring it met their specific needs.\n- Scaled the application to serve a growing number of clients and their orders and invoices, and I ensured that the app could handle larger volumes of data with minimal latency, resulting in faster processing and improved overall system performance.",
+    "startDate": "2022-03-01",
+    "endDate": "2024-01-05",
+    "isCurrentJob": false,
+    "mainColor": "#156970",
+    "darkColor": "#ABEAEF",
+    "technologies": [
+      "Java",
+      "SpringBoot",
+      "TypeScript",
+      "Angular",
+      "MySQL",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  {
+    "companyName": "BJSS",
+    "icon": {
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1694634412/bjss_276df2a44a.jpg",
+      "name": "BJSS"
+    },
+    "title": "Software Engineer",
+    "location": "Manchester (remote)",
+    "description": "A technology consultancy company that provides work opportunities on standalone projects, using a variety of programming languages and stacks.\n- I mainly focused on the maintenance of a client's eCommerce webapp using Drupal, where I implemented small changes across the entire user journey, from product search to purchase and payment.\n- I also took on the responsibility of implementing the new cookie banner on the\nclient's EU sites, which involved working on 9 domains, understanding business requirements and translating them into technical solutions, and coordinating with the QA team to verify the banner's behaviour and ensuring a smooth release process.\n- I supported the Platform team as a developer and tester in creating a\ncontainerized version of the application.\n- I was responsible for onboarding new software and QA engineers to the team’s tech stack; I also participated in a few dozens interviews involving technical/motivational questions and whiteboard programming to evaluate candidates.",
+    "startDate": "2020-11-02",
+    "endDate": "2022-03-01",
+    "isCurrentJob": false,
+    "mainColor": "#1447BA",
+    "darkColor": "#CEDCFA",
+    "technologies": [
+      "PHP",
+      "Drupal",
+      "Java",
+      "JavaScript",
+      "Angular",
+      "Vue",
+      "Google Tag Manager",
+      "Docker",
+      "Jenkins",
+      "Azure"
+    ]
+  },
+  {
+    "companyName": "Booking.com",
+    "icon": {
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692645590/booking_c2c27e91e2.png",
+      "name": "Booking.com"
+    },
+    "title": "Graduate Software Engineer",
+    "location": "Manchester",
+    "description": "I joined the Graduate scheme, involving a team rotation every 6 months – a unique opportunity to gain expertise across the various services within the company.\n\nSome backend projects involved:\n\n- the migration of the legacy Pricing Engine to a modern Spring API as part of restructuring towards microservices architecture.\n- the improvement of the platform that communicates with supplier APIs and manages the automated reservation process.\n\nIn the frontend area, \n\n- I maintained the Payment page of Rentalcars.com and Sanction Screening tool, in compliance with industry standards.\n- I contributed to the development and scaling of the new \"Premium\" insurance product, driving revenue growth starting from a few small airports, then expanding the market presence to several popular holiday destinations.\n- and contributed to web-replatforming efforts, developing various filters for the Rentalcars results page and creating \"Premium\" and \"Full Insurance\" upsell banners using React, integrating them into the main webapp.\n\nI also conducted interviews for the company's graduate scheme, identifying top talent to join the team, and helped implementing WFH techniques during Covid-19, enhancing productivity, communication and overall well-being.\n",
+    "startDate": "2018-09-03",
+    "endDate": "2020-11-30",
+    "isCurrentJob": false,
+    "mainColor": "#043580",
+    "darkColor": "#b6d2fd",
+    "technologies": [
+      "Java",
+      "SpringBoot",
+      "JavaScript",
+      "React",
+      "NodeJS",
+      "PHP",
+      "MySQL",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "GCP"
+    ]
+  },
+  {
+    "companyName": "UniBZ – Faculty of Computer Science",
+    "icon": {
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692645740/unibz_17557d79d6.webp",
+      "name": "UniBZ"
+    },
+    "title": "Research Assistant, project-based Contract",
+    "location": null,
+    "description": "Academic research about contracts and policies of cloud services, following the changes introduced by the new European law on data protection (GDPR). The article, published on IEEE Cloud Computing, was written in collaboration with law and computer science professors from the Free University of Bolzano and University of Insubria.",
+    "startDate": "2017-10-01",
+    "endDate": "2018-03-31",
+    "isCurrentJob": false,
+    "mainColor": "#147AE3",
+    "darkColor": "#b8d8f9",
+    "technologies": ["Cloud Computing", "GDPR", "SaaS", "Technical Writing"]
+  },
+  {
+    "companyName": "ICT Group",
+    "icon": {
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697886318/ict_group_1249c4776b.png",
+      "name": "ICT Group"
+    },
+    "title": "Software Developer, Internship + Contract",
+    "location": "Reggio Emilia",
+    "description": "Summer internship granting university credits, followed by a 5-month remote collaboration contract.\n\nI was responsible for implementing a customized Human Resource Management System (HRMS) according to a client's specific requirements, resulting in an adaptable web portal for efficient management of employee holidays, permits, and sick days.",
+    "startDate": "2016-07-03",
+    "endDate": "2017-03-31",
+    "isCurrentJob": false,
+    "mainColor": "#5CC1E1",
+    "darkColor": "#96e7ff",
+    "technologies": [
+      "AngularJS",
+      "NodeJS",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JQuery",
+      "MongoDB"
+    ]
+  }
+]

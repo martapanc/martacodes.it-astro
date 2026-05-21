@@ -1,0 +1,18 @@
+[
+  {
+    "label": "🇬🇧 EN",
+    "flag": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/uk_657deb6132.svg",
+    "value": "en"
+  },
+  {
+    "label": "🇮🇹 IT",
+    "flag": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/it_00c57db1fb.svg",
+    "value": "it"
+  },
+  {
+    "label": "🇩🇪 DE",
+    "flag": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692716604/de_9c5221adfa.svg",
+    "value": "de",
+    "disabled": true
+  }
+]

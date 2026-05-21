@@ -1,0 +1,55 @@
+.recruiters-info p {
+  margin-bottom: 0.75rem;
+}
+
+.recruiters-info h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.recruiters-info summary {
+  margin-bottom: 0.75rem;
+}
+
+.recruiters-info details {
+  margin: 1rem;
+}
+
+.recruiters-info details p {
+  margin-left: 0.8rem;
+}
+
+.recruiters-info h3 {
+  margin: 0.6rem 0;
+}
+
+.recruiters-info h4 {
+  margin: 0.6rem 0;
+}
+
+.recruiters-info ul {
+  list-style: inside;
+  margin-bottom: 1rem;
+}
+
+.recruiters-info li {
+  margin-left: 22px;
+  margin-bottom: 5px;
+}
+
+.recruiters-info hr {
+  margin: 1rem 0;
+}
+
+.recruiters-info .taxes {
+  margin-left: 1.5rem !important;
+}
+
+.recruiters-info a {
+  color: var(--color-primary-600);
+  text-decoration: none;
+}
+
+.recruiters-info a:hover {
+  text-decoration: underline;
+}

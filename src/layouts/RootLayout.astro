@@ -1,0 +1,72 @@
+---
+import '@/styles/globals.css';
+import '@/styles/angles.css';
+
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+
+export interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'MartaCodes.it',
+  description = 'Marta Pancaldi — Full-Stack Software Engineer',
+} = Astro.props;
+---
+
+<html lang='en' suppressHydrationWarning>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <meta name='description' content={description} />
+    <link rel='icon' type='image/x-icon' href='/favicon.ico' />
+    <title>{title}</title>
+
+    <!-- Google Fonts for decorative fonts used in Updates section -->
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link
+      href='https://fonts.googleapis.com/css2?family=Handlee&family=Reenie+Beanie&family=Square+Peg&display=swap'
+      rel='stylesheet'
+    />
+
+    <!-- Theme init: read localStorage before paint to avoid flash -->
+    <script is:inline>
+      (function () {
+        var stored = localStorage.getItem('theme');
+        var theme = stored === 'dark' || stored === 'light'
+          ? stored
+          : window.matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark'
+            : 'light';
+        document.documentElement.classList.add(theme);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <Header client:load />
+    <main id='content' class='min-h-main dark:bg-dark bg-white'>
+      <slot />
+    </main>
+    <Footer client:load />
+
+    <!-- Umami Analytics -->
+    <script
+      is:inline
+      async
+      src='https://analytics.eu.umami.is/script.js'
+      data-website-id='ab53ae74-58ea-44ff-b5fa-451b4f52c364'
+    ></script>
+
+    <!-- CookieYes -->
+    <script
+      is:inline
+      id='cookieyes'
+      type='text/javascript'
+      src='https://cdn-cookieyes.com/client_data/343cca4a060bf9189f75d72e/script.js'
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+---
+import { readMarkdown } from '@/lib/markdownUtils';
+import RootLayout from '@/layouts/RootLayout.astro';
+import CvPage from '@/components/pages/cv-page';
+
+import jobs from '@/data/cv/jobs.json';
+import languages from '@/data/cv/languages.json';
+import publications from '@/data/cv/publications.json';
+import schools from '@/data/cv/schools.json';
+import skills from '@/data/cv/skills.json';
+
+const intro = readMarkdown('cv/intro.md');
+---
+
+<RootLayout
+  title='My CV | MartaCodes.it'
+  description='All about my software development skills and work experience.'
+>
+  <CvPage
+    intro={intro}
+    skills={skills}
+    jobs={jobs}
+    schools={schools}
+    languages={languages}
+    publications={publications}
+    client:only="react"
+  />
+</RootLayout>

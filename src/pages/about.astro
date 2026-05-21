@@ -1,0 +1,24 @@
+---
+import RootLayout from '@/layouts/RootLayout.astro';
+import AboutPage from '@/components/pages/about-page';
+
+import books from '@/data/about/books.json';
+import podcasts from '@/data/about/podcasts.json';
+import randomFacts from '@/data/about/randomFacts.json';
+import tvShows from '@/data/about/tvShows.json';
+import videoGames from '@/data/about/videoGames.json';
+---
+
+<RootLayout
+  title='About | MartaCodes.it'
+  description='All non-software-related things I enjoy doing in my free time.'
+>
+  <AboutPage
+    books={books}
+    podcasts={podcasts}
+    videoGames={videoGames}
+    tvShows={tvShows}
+    randomFacts={randomFacts}
+    client:only="react"
+  />
+</RootLayout>

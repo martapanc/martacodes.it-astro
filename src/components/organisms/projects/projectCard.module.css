@@ -1,0 +1,12 @@
+.show {
+  height: 100%;
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.hide {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
