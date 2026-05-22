@@ -24,15 +24,16 @@ const SalaryHappinessTool = ({ salaryData, config }: SalaryHappinessProps) => {
   const { median } = salaryData;
   const medianInCurrency = median * config.forexMultiplier;
 
-  const minVisible = roundNum(medianInCurrency * 0.5);
-  const minSad = roundNum(medianInCurrency * 0.6);
-  const stillSad = roundNum(medianInCurrency * 0.7);
-  const minAcceptable = roundNum(medianInCurrency * 0.9);
-  const veryHappy = roundNum(medianInCurrency * 1.2);
-  const overTheMoon = roundNum(medianInCurrency * 1.3);
-  const maxVisible = roundNum(medianInCurrency * 1.4);
+  const minVisible = roundNum(medianInCurrency * 0.4);
+  const minSad = roundNum(medianInCurrency * 0.53);
+  const stillSad = roundNum(medianInCurrency * 0.67);
+  const minAcceptable = roundNum(medianInCurrency * 0.80);
+  const veryHappy = roundNum(medianInCurrency * 1.1);
+  const overTheMoon = roundNum(medianInCurrency * 1.35);
+  const maxVisible = roundNum(medianInCurrency * 2.25);
+  const defaultSalary = roundNum(medianInCurrency * 1.1);
 
-  const [selectedSalary, setSelectedSalary] = useState(minAcceptable);
+  const [selectedSalary, setSelectedSalary] = useState(defaultSalary);
   const [happinessScore, setHappinessScore] = useState({
     emoji: '❓',
     title: '',

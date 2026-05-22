@@ -99,11 +99,6 @@ const footerLinks: FooterLink[] = [
     name: "Marta's Links",
   },
   {
-    href: '/recruiters-info',
-    label: 'Recruiters',
-    name: 'Info for Recruiters',
-  },
-  {
     href: 'https://github.com/martapanc/martacodes.it',
     label: 'Source Code',
     name: 'Sourcecode',

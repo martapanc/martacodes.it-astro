@@ -4,4 +4,5 @@ export const links = [
   { href: '/projects', label: 'Projects' },
   { href: '/uses', label: 'Uses' },
   { href: '/contacts', label: 'Contacts' },
+  { href: '/recruiters-info', label: 'For Recruiters' },
 ];
