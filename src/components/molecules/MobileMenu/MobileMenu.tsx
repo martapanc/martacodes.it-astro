@@ -6,7 +6,7 @@ import * as React from 'react';
 import languages from '@/data/languages.json';
 
 import { NavigationItem } from '@/components/atoms/NavigationItem';
-import { links } from '@/components/layout/Header';
+import { links } from '@/data/navigation';
 import LanguageSwitcherMobile from '@/components/molecules/LanguageSwitcher/LanguageSwitcherMobile';
 import ThemeToggle from '@/components/molecules/ThemeToggle/ThemeToggle';
 
@@ -60,7 +60,7 @@ export const MobileMenu = ({ isOpen }: MobileMenuProps) => {
                 animate='visible'
                 custom={0.5 + (links.length + 3) * 0.1}
               >
-                <ThemeToggle includeLabels={false} />
+                <ThemeToggle />
               </motion.li>
 
               {i18nEnabled && (

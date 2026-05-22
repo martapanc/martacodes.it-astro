@@ -5,6 +5,7 @@ import { Wordcloud } from '@visx/wordcloud';
 import { useEffect, useRef, useState } from 'react';
 
 import tagsData from '@/data/tags.json';
+import TerminalFrame from '@/components/molecules/TerminalFrame/TerminalFrame';
 
 interface WordData {
   text: string;
@@ -49,10 +50,14 @@ const TagCloud = () => {
   }, []);
 
   return (
-    <div
-      ref={containerRef}
-      className='w-full mt-6 h-80 md:h-[260px] lg:h-[288px] lg:w-1/2 lg:mt-0 rounded-lg bg-gray-50 dark:bg-gray-900 p-1 drop-shadow-lg'
+    <TerminalFrame
+        fileName="what-i'm-made-of.png"
+        className='w-full mt-6 h-80 md:h-65 lg:h-72 lg:w-1/2 lg:mt-0 drop-shadow-lg'
     >
+      <div
+        ref={containerRef}
+        className='h-full rounded-b-lg bg-gray-50 dark:bg-gray-900 p-1'
+      >
       {dimensions.width > 0 && dimensions.height > 0 && (
         <Wordcloud
           words={words}
@@ -80,7 +85,8 @@ const TagCloud = () => {
           }
         </Wordcloud>
       )}
-    </div>
+      </div>
+    </TerminalFrame>
   );
 };
 

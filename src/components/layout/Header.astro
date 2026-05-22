@@ -1,0 +1,41 @@
+---
+import { links } from '@/data/navigation';
+import ThemeToggle from '@/components/molecules/ThemeToggle/ThemeToggle';
+import MobileMenuIsland from '@/components/molecules/MobileMenu/MobileMenuIsland';
+---
+
+<div style='z-index: 50'>
+  <header class='sticky top-0 z-50 bg-linear-to-r from-sky-100 to-blue-200 py-5 dark:from-cyan-950 dark:to-sky-950 border-b border-b-gray-300 dark:border-b-slate-800'>
+    <div class='layout flex h-12 w-full items-center justify-between'>
+      <nav class='m-4 flex w-full items-center justify-between text-xl'>
+        <a
+          href='/'
+          class='font-jetbrains font-medium tracking-tight text-slate-900 hover:text-slate-700 dark:text-blue-50 dark:hover:text-blue-200'
+        >
+          &lt;MartaCodes <span class='text-blue-600 dark:text-blue-400'>/</span>&gt;
+        </a>
+
+        <div class='flex justify-between gap-16'>
+          <ul class='hidden items-center justify-between space-x-6 text-base md:flex'>
+            {links.map(({ href, label }) => (
+              <li>
+                <a
+                  href={href}
+                  class='animated-underline-2 dark:animated-underline rounded-sm font-medium text-slate-950 dark:text-blue-50'
+                >
+                  {label}
+                </a>
+              </li>
+            ))}
+          </ul>
+
+          <div class='hidden md:flex md:flex-row'>
+            <ThemeToggle client:load />
+          </div>
+        </div>
+      </nav>
+
+      <MobileMenuIsland client:load />
+    </div>
+  </header>
+</div>

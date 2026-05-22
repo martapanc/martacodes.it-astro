@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "@fontsource-variable/jetbrains-mono";
+@import "@fontsource-variable/inter";
 
 /* Class-based dark mode */
 @custom-variant dark (&:where(.dark, .dark *));
@@ -26,9 +28,11 @@
   --color-terminal-amber: #febc2e;
   --color-terminal-green: #28c840;
   --color-terminal-light: #f1f1f1;
-  --color-terminal-dark: #1e1e21;
   --color-terminal-bar-light: #dedede;
-  --color-terminal-bar-dark: #4e4e4e;
+  --color-terminal-border-light: #d6d4d4;
+  --color-terminal-dark: #0E1726;
+  --color-terminal-bar-dark: #182239;
+  --color-terminal-border-dark: #2a3550;
 
   /* Home section colors */
   --color-home-section2: #c1d1e7;
@@ -38,11 +42,12 @@
   --color-home-section4-dark: #08101c;
 
   /* Background images */
-  --background-image-gradient-linear-light: linear-gradient(210deg, #D4E5FC 7%, rgba(255, 255, 255, 0) 40%);
-  --background-image-gradient-linear-dark: linear-gradient(200deg, #1E293D 7%, #0c1018 30%);
+  --background-image-gradient-linear-light: linear-gradient(210deg, #e5eef6 7%, rgba(255, 255, 255, 0) 40%);
+  --background-image-gradient-linear-dark: linear-gradient(200deg, #121823 7%, #0c1018 30%);
 
   /* Font family (v4 uses --font-{name}) */
-  --font-primary: 'Roboto Thin', ui-sans-serif, system-ui, sans-serif;
+  --font-primary: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-jetbrains: 'JetBrains Mono Variable', ui-monospace, monospace;
 
   /* Animations */
   --animate-flicker: flicker 3s linear infinite;
@@ -104,18 +109,18 @@
     background-color: #011125;
   }
 
-  /* inter var - latin */
-  @font-face {
-    font-family: 'Roboto Light';
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: optional;
-    src: url('/fonts/inter-var-latin.woff2') format('woff2');
-    unicode-range:
-      U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  }
+  /*!* inter var - latin *!*/
+  /*@font-face {*/
+  /*  font-family: 'Roboto Light';*/
+  /*  font-style: normal;*/
+  /*  font-weight: 100 900;*/
+  /*  font-display: optional;*/
+  /*  src: url('/fonts/inter-var-latin.woff2') format('woff2');*/
+  /*  unicode-range:*/
+  /*    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,*/
+  /*    U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,*/
+  /*    U+FEFF, U+FFFD;*/
+  /*}*/
 
   .cursor-newtab {
     cursor:

@@ -14,7 +14,7 @@ import UnstyledLink from '@/components/atoms/links/UnstyledLink';
 
 export default function Footer() {
   return (
-    <footer className='dark:to-dark bg-gradient-to-r from-blue-300 to-sky-100 dark:from-sky-950'>
+    <footer className='dark:to-dark bg-linear-to-r from-blue-100 to-sky-100 dark:from-sky-950'>
       <main className='layout flex flex-col items-center py-6'>
         <div className='flex flex-wrap justify-center gap-x-8 gap-y-4'>
           <FooterLinks />

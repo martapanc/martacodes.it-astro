@@ -2,6 +2,7 @@
 
 import { useTheme } from '@/hooks/useTheme';
 import React, { useEffect, useState } from 'react';
+import TerminalFrame from '@/components/molecules/TerminalFrame/TerminalFrame';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import {
   atomOneLight,
@@ -60,13 +61,12 @@ const Terminal = ({ codeSnippets }: CodeSnippetsProps) => {
   }, [loading]);
 
   return (
-    <div className='w-full lg:w-1/2 h-60 lg:h-[288px] drop-shadow-lg'>
-      <div className='bg-terminal-bar-light dark:bg-terminal-bar-dark h-5 rounded-t-lg px-4 py-1 flex'>
-        <div className='w-[12px] h-[12px] rounded-full me-1.5 bg-terminal-red'></div>
-        <div className='w-[12px] h-[12px] rounded-full me-1.5 bg-terminal-amber'></div>
-        <div className='w-[12px] h-[12px] rounded-full me-1.5 bg-terminal-green'></div>
-      </div>
-      <div className='h-56 rounded-b-lg border-double bg-terminal-light dark:bg-terminal-dark px-4 pt-2.5 pb-6 lg:h-[268px]'>
+    <TerminalFrame
+        className='w-full lg:w-1/2 h-60 lg:h-72 drop-shadow-lg'
+        fileName="marta.info"
+        fileMeta="last modified 2026-05-24"
+    >
+      <div className='h-full rounded-b-lg border-double bg-terminal-light dark:bg-terminal-dark px-4 pt-2.5 pb-6'>
         <div id='typed-strings'>
           {loading ? <span className='cursor-blink'>_</span> : null}
           {!loading &&
@@ -84,7 +84,7 @@ const Terminal = ({ codeSnippets }: CodeSnippetsProps) => {
         </div>
         <span id='typed'></span>
       </div>
-    </div>
+    </TerminalFrame>
   );
 };
 
