@@ -1,5 +1,10 @@
 {
   "greeting": "Hey there, I'm Marta ",
+  "shortInfo": {
+    "title": "Senior Full-Stack Engineer",
+    "exp": "8",
+    "currentlyAt": "freelancing @ TPTS"
+  },
   "introduction": {
     "now": "I'm an Italian software engineer currently working at {Appetize}.",
     "passion": "I love writing code both professionally and in my spare time. I’m at my best when I’m learning, experimenting with new technologies, and tackling complex problems.",

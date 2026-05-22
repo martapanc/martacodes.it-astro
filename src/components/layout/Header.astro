@@ -2,6 +2,8 @@
 import { links } from '@/data/navigation';
 import ThemeToggle from '@/components/molecules/ThemeToggle/ThemeToggle';
 import MobileMenuIsland from '@/components/molecules/MobileMenu/MobileMenuIsland';
+
+const { pathname } = Astro.url;
 ---
 
 <div style='z-index: 50'>
@@ -21,7 +23,10 @@ import MobileMenuIsland from '@/components/molecules/MobileMenu/MobileMenuIsland
               <li>
                 <a
                   href={href}
-                  class='animated-underline-2 dark:animated-underline rounded-sm font-medium text-slate-950 dark:text-blue-50'
+                  class:list={[
+                    'animated-underline-2 dark:animated-underline rounded-sm font-medium text-slate-950 dark:text-blue-50',
+                    { 'underline-active': pathname === href || (href !== '/' && pathname.startsWith(href)) },
+                  ]}
                 >
                   {label}
                 </a>

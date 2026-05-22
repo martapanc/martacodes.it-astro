@@ -1,5 +1,10 @@
 export interface HomepageContent {
   greeting: string;
+  shortInfo: {
+    title: string;
+    exp: number;
+    currentlyAt: string;
+  }
   introduction: Introduction;
   skills: Skills;
   updates: Updates;

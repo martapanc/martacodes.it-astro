@@ -223,7 +223,9 @@
   .animated-underline:hover,
   .animated-underline-2:hover,
   .animated-underline:focus-visible,
-  .animated-underline-2:focus-visible {
+  .animated-underline-2:focus-visible,
+  .animated-underline.underline-active,
+  .animated-underline-2.underline-active {
     background-size:
       0 2px,
       100% 2px;
@@ -232,8 +234,8 @@
 
 @layer components {
   .burger-icon {
-    width: 32px;
-    height: 24px;
+    width: 26px;
+    height: 20px;
     position: relative;
     transform: rotate(0deg);
     transition: 0.5s ease-in-out;
@@ -244,9 +246,9 @@
     @apply bg-black dark:bg-white;
     display: block;
     position: absolute;
-    height: 3px;
+    height: 2px;
     width: 100%;
-    border-radius: 3px;
+    border-radius: 2px;
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
@@ -255,18 +257,18 @@
 
   .burger-icon span:nth-child(1) { top: 0px; }
   .burger-icon span:nth-child(2),
-  .burger-icon span:nth-child(3) { top: 12px; }
-  .burger-icon span:nth-child(4) { top: 24px; }
+  .burger-icon span:nth-child(3) { top: 10px; }
+  .burger-icon span:nth-child(4) { top: 20px; }
 
   .burger-icon.open span:nth-child(1) {
-    top: 18px;
+    top: 14px;
     width: 0%;
     left: 50%;
   }
   .burger-icon.open span:nth-child(2) { transform: rotate(45deg); }
   .burger-icon.open span:nth-child(3) { transform: rotate(-45deg); }
   .burger-icon.open span:nth-child(4) {
-    top: 18px;
+    top: 14px;
     width: 0%;
     left: 50%;
   }
