@@ -98,8 +98,8 @@ const Summary = ({homePage}: SummaryProps) => {
 
     const intro = reactStringReplace(
         homePage.introduction.now,
-        jobs.appetize.key,
-        () => buildLink(jobs.appetize, logoVersion),
+        jobs.tpts.key,
+        () => buildLink(jobs.tpts, logoVersion),
     );
 
     let education = reactStringReplace(
@@ -122,6 +122,9 @@ const Summary = ({homePage}: SummaryProps) => {
     );
     work = reactStringReplace(work, jobs.resourcify.key, () =>
         buildLink(jobs.resourcify, logoVersion),
+    );
+    work = reactStringReplace(work, jobs.appetize.key, () =>
+        buildLink(jobs.appetize, logoVersion),
     );
 
     return (

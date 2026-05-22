@@ -1,4 +1,14 @@
 {
+  "tpts": {
+    "key": "{TPTS}",
+    "href": "https://martacodes.it",
+    "classes": "ms-0.5",
+    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1779457040/tpts-no-bg_ngmmbs.webp",
+    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1779457040/tpts-no-bg_ngmmbs.webp",
+    "alt": "TPTS",
+    "width": 80,
+    "height": 10
+  },
   "appetize": {
     "key": "{Appetize}",
     "href": "https://appetize.io/",
@@ -6,8 +16,8 @@
     "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1705241229/appetize-logo.svg",
     "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1708600687/appetize-logo-white.svg",
     "alt": "Appetize.io",
-    "width": 100,
-    "height": 20
+    "width": 90,
+    "height": 16
   },
   "resourcify": {
     "key": "{Resourcify}",

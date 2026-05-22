@@ -3,13 +3,13 @@
   "shortInfo": {
     "title": "Senior Full-Stack Engineer",
     "exp": "8",
-    "currentlyAt": "freelancing @ TPTS"
+    "currentlyAt": "consulting @ TPTS"
   },
   "introduction": {
-    "now": "I'm an Italian software engineer currently working at {Appetize}.",
+    "now": "I'm an Italian software engineer, currently consulting and doing R&D at {TPTS}.",
     "passion": "I love writing code both professionally and in my spare time. I’m at my best when I’m learning, experimenting with new technologies, and tackling complex problems.",
     "education": "I hold a MSc in Advanced Computer Science from the {uom} and a trilingual BSc from the {unibz}, with an exchange semester at the {cofc}.",
-    "work": "Over the past eight years, I’ve worked across a range of companies and products, including {Booking}, {BJSS} and {Resourcify}, building and scaling web applications in distributed teams.",
+    "work": "Over the past eight years, I’ve worked across a range of companies and products, including {Booking}, {BJSS}, {Resourcify} and {Appetize}, building and scaling web applications in distributed teams.",
     "cv": "I hold a <span class=\"font-semibold\">MSc in Advanced Computer Science</span> from the University of Manchester, and have spent the last 6 years working for several companies, including {Booking}, {BJSS} and {Resourcify}.",
     "freeTime": "Outside of tech, I’m a fiction writer ✍🏻, an avid bookworm 📚, an oboist and alto singer 🎶, and a travel photographer 📷."
   },
