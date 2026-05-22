@@ -322,4 +322,8 @@
   .strong {
     font-weight: 550;
   }
+
+  hr {
+    @apply border-gray-300 dark:border-gray-200/0;
+  }
 }

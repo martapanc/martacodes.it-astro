@@ -16,16 +16,16 @@ const SkillSummary = ({homePage}: SkillsProps) => {
             <div className='tracking-widest text-sm font-semibold text-slate-500 mb-5 text-end'>
                 SOFTWARE DEVELOPMENT
             </div>
-            <div className='flex md:flex-row flex-col-reverse gap-6 w-full'>
-                <div className='md:w-1/4 flex items-center justify-center dark:bg-transparent rounded-3xl'>
+            <div className='flex md:flex-row flex-col-reverse gap-3 w-full justify-between'>
+                <div className='md:w-1/3 flex items-center justify-center dark:bg-transparent rounded-3xl'>
                     <img
-                        src='https://res.cloudinary.com/dwrurydlt/image/upload/v1710444087/full-stack-developer.png'
+                        src='https://res.cloudinary.com/dwrurydlt/image/upload/v1779458555/fs-engineer_h7ogjq.webp'
                         height={0}
-                        width={375}
+                        width={359}
                         alt='full-stack development'
                     />
                 </div>
-                <div className='text-[17px] antialiased md:w-3/4'>
+                <div className='text-[17px] antialiased md:w-2/3'>
                     <div className='mb-4'>
                         <ReactMarkdown rehypePlugins={[rehypeRaw]}>
                             {homePage.skills.fullStack}

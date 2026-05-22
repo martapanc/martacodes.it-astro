@@ -2,7 +2,7 @@
 
 import { useTheme } from '@/hooks/useTheme';
 import * as React from 'react';
-import { RefObject, useEffect, useRef, useState } from 'react';
+import {type RefObject, useEffect, useRef, useState } from 'react';
 import { IconContext } from 'react-icons';
 import { RxCross1 } from 'react-icons/rx';
 import ReactMarkdown from 'react-markdown';
@@ -25,7 +25,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   const { theme } = useTheme();
 
   const [cardHeight, setCardHeight] = useState('100%');
-  const cardRef: RefObject<HTMLDivElement> = useRef(null);
+  const cardRef: RefObject<HTMLDivElement | null> = useRef(null);
 
   const [activeDiv, setActiveDiv] = useState('first');
   const toggleDiv = () => {
@@ -33,7 +33,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   };
 
   const [autoMarginHeight, setAutoMarginHeight] = useState('auto');
-  const autoMarginRef: RefObject<HTMLDivElement> = useRef(null);
+  const autoMarginRef: RefObject<HTMLDivElement | null> = useRef(null);
 
   useEffect(() => {
     if (cardRef.current) {
@@ -131,7 +131,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           {project.longDescription && (
             <button
               onClick={toggleDiv}
-              className='rounded px-3 py-1 text-sm font-medium text-primary-600 hover:bg-primary-50 dark:text-primary-400 dark:hover:bg-slate-800'
+              className='rounded px-3 py-1 text-sm font-medium text-primary-600 hover:bg-primary-50 dark:text-primary-400 dark:hover:bg-slate-800 cursor-pointer'
             >
               Read More
             </button>
@@ -159,7 +159,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         )}
         <div className='flex w-full justify-end'>
           <button
-            className='rounded p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+            className='rounded p-2 text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800 cursor-pointer'
             onClick={toggleDiv}
             aria-label='Close'
           >
