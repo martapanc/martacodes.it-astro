@@ -40,7 +40,7 @@ const { pathname } = Astro.url;
         </div>
       </nav>
 
-      <MobileMenuIsland client:idle />
+      <MobileMenuIsland client:media="(max-width: 768px)" />
     </div>
   </header>
 </div>

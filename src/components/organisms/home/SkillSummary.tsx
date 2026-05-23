@@ -19,7 +19,7 @@ const SkillSummary = ({homePage}: SkillsProps) => {
             <div className='flex md:flex-row flex-col-reverse gap-3 w-full justify-between'>
                 <div className='md:w-1/3 flex items-center justify-center dark:bg-transparent rounded-3xl'>
                     <img
-                        src='https://res.cloudinary.com/dwrurydlt/image/upload/v1779458555/fs-engineer_h7ogjq.webp'
+                        src='https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_360/v1779458555/fs-engineer_h7ogjq.webp'
                         height={0}
                         width={359}
                         alt='full-stack development'

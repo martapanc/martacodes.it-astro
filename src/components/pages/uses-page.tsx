@@ -24,7 +24,7 @@ export default function UsesPage({ usesData }: UsesPageProps) {
         <div className='flex items-center flex-col my-3'>
           <img
             className='mb-2'
-            src='https://res.cloudinary.com/dwrurydlt/image/upload/v1698432934/current_setup.jpg'
+            src='https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_540/v1698432934/current_setup.jpg'
             alt='Current setup'
             width={540}
             height={400}

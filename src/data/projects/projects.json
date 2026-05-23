@@ -3,7 +3,7 @@
     "title": "Appetize.io 2.0",
     "image": {
       "name": "appetizeio.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/t_Project img/v1738435622/appetizeio.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/t_Project img/f_auto,q_auto/v1738435622/appetizeio.webp"
     },
     "shortDescription": "Rebranding of our company's website, built from scratch using AstroJS",
     "mediumDescription": "In early 2025, the company I work for decided to redesign its marketing website. The previous version was visually appealing but too playful for our business-focused audience. The <a href=\"https://appetize.io\" target=\"_blank\">new appetize.io</a> was rebuilt almost from scratch, embracing a more dynamic and modern\ndesign. We leveraged the latest web technologies to enhance speed, accessibility, and SEO, ensuring a polished and\nprofessional experience tailored to our users.",
@@ -20,7 +20,7 @@
     "title": "All-Star Advent of Code",
     "image": {
       "name": "aoc.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1694340967/aoc_7a1ccad4f3.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1694340967/aoc_7a1ccad4f3.webp"
     },
     "shortDescription": "My submissions to all Advent of Code challenges (2015-2024)",
     "mediumDescription": "<a href=\"https://adventofcode.com/\" target=\"_blank\">Advent of Code</a> is a yearly event offering Christmas-themed coding challenges. After completing the 2020 event, I decided to tackle puzzles from previous years. Thanks to these I've gained proficiency in Kotlin and refined my problem-solving skills, and I'm quite proud of my shiny 500 stars ⭐. As a side project, I developed an API automating class setup for daily challenges, fetching input data, and updating my progress on the Readme.",
@@ -37,7 +37,7 @@
     "title": "Purrfect Price",
     "image": {
       "name": "purrfect-price.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1728827219/purrfect-price.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1728827219/purrfect-price.webp"
     },
     "shortDescription": "Compare cat food prices from top sellers with Purrfect Price",
     "mediumDescription": "Purrfect Price is a tool built with NextJS, using Playwright to scrape popular cat food seller websites and AgGrid to organize, filter, and compare the best deals on various cat food brands. Whether searching for budget-friendly options or premium products, Purrfect Price helps you find the best deals effortlessly.",
@@ -58,7 +58,7 @@
     "title": "FlexInvoice",
     "image": {
       "name": "flexinvoice.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1773508154/flexinvoice-banner.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1773508154/flexinvoice-banner.webp"
     },
     "shortDescription": "A simple and customisable web-based invoice generator",
     "mediumDescription": "As a new freelancer managing my own company, I needed to create customized invoices for myself and my collaborators. Dissatisfied with basic Word templates and wanting to avoid complex software, I developed my own solution: a React template that is filled with JSON data and used to generate PDF invoices using Puppeteer. I'm also working on extending the functionality by automating the invoicing process as much as possible.",
@@ -79,7 +79,7 @@
     "title": "Personal website 2.0",
     "image": {
       "name": "martacodes.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697913493/martacodes_015d03d33b.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697913493/martacodes_015d03d33b.webp"
     },
     "shortDescription": "My new personal website, implemented with Next.js",
     "longDescription": "website2.md",
@@ -103,7 +103,7 @@
     "title": "Pigeon Family Cam",
     "image": {
       "name": "pigeons.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697905495/pigeons_73a6d7be86.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697905495/pigeons_73a6d7be86.webp"
     },
     "shortDescription": "RaspberryPi-powered webcam monitoring a pigeon nest on my balcony",
     "longDescription": "pigeons.md",
@@ -118,7 +118,7 @@
     "title": "Twitch-to-Slack notifier",
     "image": {
       "name": "twitch.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697893130/twitch_c194f01260.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697893130/twitch_c194f01260.webp"
     },
     "shortDescription": "Custom Python cron job to link Twitch to Slack for personalised live show notifications",
     "longDescription": "twitch-slack.md",
@@ -133,7 +133,7 @@
     "title": "Fiscal Code Android app",
     "image": {
       "name": "fc_app.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1694341128/fc_app_869a56c53d.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1694341128/fc_app_869a56c53d.webp"
     },
     "shortDescription": "Android application for computing an Italian Fiscal Code via the public algorithm, and verifying a code's validity",
     "longDescription": "fc-app.md",
@@ -148,7 +148,7 @@
     "title": "Team toolbar plugin",
     "image": {
       "name": "xbar.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697908493/xbar_974af5a8d0.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697908493/xbar_974af5a8d0.webp"
     },
     "shortDescription": "Customisable XBar plugin for streamlined team process monitoring",
     "mediumDescription": "I developed a plugin for <a href=\"https://xbarapp.com\" target=\"_blank\">XBar</a>, a MacOS toolbar app, to streamline the monitoring of team processes, metrics, and web resources. The plugin connects to the company's servers to display Bamboo build and deployment processes, pull requests, release statuses, and more. My team now uses the toolbar daily, and I'm expanding its functionality to allow other teams to easily configure their own settings.",
@@ -164,7 +164,7 @@
     "title": "Daily Programming",
     "image": {
       "name": "programming.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697910718/programming_238a67af47.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697910718/programming_238a67af47.webp"
     },
     "shortDescription": "Daily coding challenges to improve programming skills",
     "longDescription": "daily-programming.md",
@@ -179,7 +179,7 @@
     "title": "Power Usage Web Scraper",
     "image": {
       "name": "zebra.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697904499/zebra_ae2b53c7f9.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697904499/zebra_ae2b53c7f9.webp"
     },
     "shortDescription": "Automated power consumption monitoring from an energy supplier's website, via Python web scraping.",
     "longDescription": "zebra.md",
@@ -194,7 +194,7 @@
     "title": "Premium Insurance UI components",
     "image": {
       "name": "noodle.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697911192/noodle_e82cbf65c5.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697911192/noodle_e82cbf65c5.webp"
     },
     "shortDescription": "Information banners for the new Premium insurance product at Rentalcars.com",
     "longDescription": "premium.md",
@@ -209,7 +209,7 @@
     "title": "mpancaldi.web.app",
     "image": {
       "name": "website.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1694341701/website_867433c5d7.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1694341701/website_867433c5d7.webp"
     },
     "shortDescription": "Initial iteration of my personal website using ReactJS",
     "longDescription": "website.md",
@@ -232,7 +232,7 @@
     "title": "MSc Dissertation - Automated Grading",
     "image": {
       "name": "msc.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697906420/msc_9a8f1a06fa.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697906420/msc_9a8f1a06fa.webp"
     },
     "shortDescription": "An automated grading tool for the programming assignment of the Software Engineering course",
     "longDescription": "msc.md",
@@ -247,7 +247,7 @@
     "title": "Cloud computing and GDPR ",
     "image": {
       "name": "gdpr.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1694341701/gdpr_7982d8d94d.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1694341701/gdpr_7982d8d94d.webp"
     },
     "shortDescription": "Research article on the effects of GDPR on Cloud services, published by IEEE in 2018",
     "longDescription": "ieee.md",
@@ -263,7 +263,7 @@
     "title": "wc clone (Unix)",
     "image": {
       "name": "Wc.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697905931/Wc_f25a2742ab.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697905931/Wc_f25a2742ab.webp"
     },
     "shortDescription": "Clone of the Unix wc tool written in Python, using a black-box testing approach",
     "longDescription": "wc-clone.md",
@@ -278,7 +278,7 @@
     "title": "Food Saver (GESS 2017)",
     "image": {
       "name": "gess.png",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697889750/gess_349457ba7e.png"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697889750/gess_349457ba7e.png"
     },
     "shortDescription": "Hackathon project created for the Global Entrepreneurship Summer School 2017 in Shanghai.",
     "longDescription": "gess.md",
@@ -295,7 +295,7 @@
     "title": "BSc Dissertation - Technical Debt",
     "image": {
       "name": "satd.png",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697906807/satd_305bb57661.png"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697906807/satd_305bb57661.png"
     },
     "shortDescription": "Heuristic algorithm for SATD method analysis and bug impact.",
     "longDescription": "bsc.md",
@@ -311,7 +311,7 @@
     "title": "Werner's Restaurant",
     "image": {
       "name": "werners.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697910083/werners_6e204f5195.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697910083/werners_6e204f5195.webp"
     },
     "shortDescription": "Java webapp for restaurant reservation and take-away management",
     "longDescription": "werners.md",
@@ -326,7 +326,7 @@
     "title": "Holiday request manager",
     "image": {
       "name": "ict.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697908745/ict_1bc6a4ff0b.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697908745/ict_1bc6a4ff0b.webp"
     },
     "shortDescription": "Internship project: HMRS software with a versatile employee portal",
     "longDescription": "ict-group.md",
@@ -341,7 +341,7 @@
     "title": "Hack-my-Town",
     "image": {
       "name": "glurns.webp",
-      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/v1697910304/glurns_fcfb87b0b5.webp"
+      "url": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_648/v1697910304/glurns_fcfb87b0b5.webp"
     },
     "shortDescription": "Innovative brand strategy for Glorenza-Glurns, the smallest town in South Tyrol\n",
     "longDescription": "hack-my-town.md",

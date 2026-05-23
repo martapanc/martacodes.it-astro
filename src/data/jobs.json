@@ -3,8 +3,8 @@
     "key": "{TPTS}",
     "href": "https://martacodes.it",
     "classes": "ms-0.5",
-    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1779457040/tpts-no-bg_ngmmbs.webp",
-    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1779457040/tpts-no-bg_ngmmbs.webp",
+    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_80/v1779457040/tpts-no-bg_ngmmbs.webp",
+    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_80/v1779457040/tpts-no-bg_ngmmbs.webp",
     "alt": "TPTS",
     "width": 80,
     "height": 10
@@ -23,8 +23,8 @@
     "key": "{Resourcify}",
     "href": "https://resourcify.com/",
     "classes": "ms-1",
-    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1693067033/resourcify_69f3b5b70d.webp",
-    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1708604164/resourcify-logo-white_x7xyoi.png",
+    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_100/v1693067033/resourcify_69f3b5b70d.webp",
+    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_100/v1708604164/resourcify-logo-white_x7xyoi.png",
     "alt": "Resourcify",
     "width": 100,
     "height": 20
@@ -33,8 +33,8 @@
     "key": "{BJSS}",
     "href": "https://bjss.com/",
     "classes": "mx-1",
-    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1692645367/bjss_180dc7fdd7.webp",
-    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1708603696/bjss-logo-white.png",
+    "image": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_45/v1692645367/bjss_180dc7fdd7.webp",
+    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_45/v1708603696/bjss-logo-white.png",
     "alt": "BJSS",
     "width": 45,
     "height": 25
@@ -44,7 +44,7 @@
     "href": "https://booking.com/",
     "classes": "mx-1",
     "image": "https://res.cloudinary.com/dwrurydlt/image/upload/v1693067075/bookingcom_91b7aa2e36.svg",
-    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/v1708603553/bookingcom_logo_white.png",
+    "imageDark": "https://res.cloudinary.com/dwrurydlt/image/upload/f_auto,q_auto,w_115/v1708603553/bookingcom_logo_white.png",
     "alt": "Booking.com",
     "width": 115,
     "height": 25
