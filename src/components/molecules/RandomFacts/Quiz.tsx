@@ -58,8 +58,7 @@ const Quiz = ({ options, falseOption, onAnswerSubmission }: QuizProps) => {
 
       <div className='flex flex-row justify-end md:justify-start'>
         <Button
-          className='w-fit shadow-md'
-          variant='primary'
+          className='cursor-pointer w-fit shadow-md bg-blue-600 hover:bg-blue-700 dark:bg-blue-800 dark:hover:bg-blue-900 disabled:bg-blue-800/75 disabled:cursor-not-allowed'
           onClick={submitAnswer}
           disabled={isButtonDisabled}
         >
