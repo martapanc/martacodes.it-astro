@@ -25,13 +25,11 @@ const Projects = ({ projects }: ProjectsProps) => {
       </div>
 
       <div className='text-lg text-blue-950 dark:text-blue-200'>
-        Check out more of my projects{' '}
         <a
           href='/projects'
           className='animated-underline-2 dark:animated-underline font-semibold'
-          aria-label='Projects'
         >
-          here
+          See all my projects
         </a>
         ! 👀
       </div>

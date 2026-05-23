@@ -23,6 +23,9 @@ export default defineConfig({
         '@': '/src',
       },
     },
+    build: {
+      sourcemap: true,
+    },
   },
 
   adapter: vercel(),

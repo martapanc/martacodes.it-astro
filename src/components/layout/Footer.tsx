@@ -114,11 +114,6 @@ const footerLinks: FooterLink[] = [
     name: 'Updates',
   },
   {
-    href: 'https://analytics.eu.umami.is/share/Dw94G9vRDiMT9YXN/MartaCodes.it',
-    label: 'Analytics',
-    name: 'Umami - Analytics',
-  },
-  {
     href: '/contacts',
     label: 'Feedback',
     name: 'Contacts',
