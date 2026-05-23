@@ -1,8 +1,6 @@
-**Nice to meet you** 👋
+**Nice to meet you** 👋 
 
-Thanks for taking the time to learn more about me and for considering me for your software engineering roles.
-
-I’ve put together this page to be upfront about what I’m looking for in my next position, so we can quickly see whether there’s a good mutual fit. My goal is to make the process clear, respectful, and efficient for both of us.
+I've put together this page to make it easy to assess fit quickly — my experience, preferences and expectations are all here. My goal is to make the process clear, respectful, and efficient for both of us.
 
 ## Setting the Stage: Salary Expectations
 

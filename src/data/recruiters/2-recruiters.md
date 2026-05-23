@@ -17,15 +17,17 @@
 
 #### Roles I’m interested in:
 
-- Software Engineer
+- Senior Software Engineer
 - Full-stack developer
 - Frontend developer
 - Backend developer
+- Tech Lead
 
 #### Seniority:
 
 - 8+ years of work experience
-- Mid to Senior level
+- Senior level
+- Experienced in mentoring engineers and leading small teams or feature squads — not looking for a full-time engineering manager role
 
 <hr/>
 
@@ -39,15 +41,15 @@
 - Next.js, AstroJS
 - Java, Spring Boot
 - Kotlin
+- Python
 - REST APIs / GraphQL
 - MySQL / Postgres / MongoDB
 
 #### 🟡 I’m not too experienced / familiar with, but I’m willing to consider:
 
-- Python
+- Swift, iOS development
 - C#, .NET
 - Go
-- Swift, iOS development
 
 #### 🔴 I’d rather not work with:
 
@@ -91,6 +93,8 @@ and the projects I have been involved in.
 
 ### Company preferences
 
+**Preferred environments**: teams where engineering has a real voice in product decisions, working on problems with meaningful scale or user impact.
+
 **Company sizes**: anywhere from established startups (10-50 employees) to medium-sized companies and large enterprises
 
 **Preferred industries**: Academic/Research, Accounting, Consultancy, eCommerce, Fintech, Gaming, Health & Fitness,
@@ -100,6 +104,8 @@ Public Infrastructure / Defence, Retail, Technology, Travel.
 
 ## TL;DR
 
+⚙️ Senior Engineer or Tech Lead. Ideally full-stack or frontend-focused.
+
 🏡 Remote-first position. (Infrequent visits to the office, say 1-2 per quarter, are fine.)
 
 🇦🇩 Andorra resident employment. (Preferably in EMEA to align with timezones, but willing to consider any location.
@@ -107,8 +113,6 @@ Additionally, I have the right to work in the UK thanks to my
 acquired "<a href="https://www.gov.uk/settled-status-eu-citizens-families/" target="_blank">Settled Status</a>".)
 
 🖋️ Permanent or Contract.
-
-⚙️ Ideally full-stack or frontend-focused.
 
 <hr/>
 
