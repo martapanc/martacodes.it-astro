@@ -26,13 +26,21 @@ const {
 
     <!-- Preload Fonts -->
 
-    <!-- Google Fonts for decorative fonts used in Updates section -->
+    <!-- Google Fonts for decorative fonts used in Updates section (non-render-blocking) -->
     <link rel='preconnect' href='https://fonts.googleapis.com' />
     <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
     <link
+      rel='preload'
+      as='style'
       href='https://fonts.googleapis.com/css2?family=Handlee&family=Reenie+Beanie&family=Square+Peg&display=swap'
-      rel='stylesheet'
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        rel='stylesheet'
+        href='https://fonts.googleapis.com/css2?family=Handlee&family=Reenie+Beanie&family=Square+Peg&display=swap'
+      />
+    </noscript>
 
     <!-- Theme init: read localStorage before paint to avoid flash -->
     <script is:inline>
@@ -53,7 +61,7 @@ const {
     <main id='content' class='min-h-main dark:bg-dark bg-white'>
       <slot />
     </main>
-    <Footer client:load />
+    <Footer client:idle />
 
     <!-- Umami Analytics -->
     <script
@@ -66,6 +74,7 @@ const {
     <!-- CookieYes -->
     <script
       is:inline
+      defer
       id='cookieyes'
       type='text/javascript'
       src='https://cdn-cookieyes.com/client_data/343cca4a060bf9189f75d72e/script.js'

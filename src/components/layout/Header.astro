@@ -35,12 +35,12 @@ const { pathname } = Astro.url;
           </ul>
 
           <div class='hidden md:flex md:flex-row'>
-            <ThemeToggle client:load />
+            <ThemeToggle client:idle />
           </div>
         </div>
       </nav>
 
-      <MobileMenuIsland client:load />
+      <MobileMenuIsland client:idle />
     </div>
   </header>
 </div>
