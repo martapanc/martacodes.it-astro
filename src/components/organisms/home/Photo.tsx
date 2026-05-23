@@ -41,7 +41,7 @@ const Photo = () => {
           src={signatureUrl}
           alt='Signature'
           width={250}
-          style={{ height: '46px' }}
+          height={50}
         />
       </div>
     </div>

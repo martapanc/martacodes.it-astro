@@ -15,9 +15,9 @@ interface ProjectsProps {
 const Projects = ({ projects }: ProjectsProps) => {
   return (
     <div className='flex flex-col'>
-      <div className='tracking-widest text-sm font-semibold text-slate-600 dark:text-slate-400 mb-5'>
+      <h2 className='tracking-widest text-sm font-semibold text-slate-600 dark:text-slate-400 mb-5'>
         RECENT PROJECTS
-      </div>
+      </h2>
       <div className='flex flex-col gap-6 w-full'>
         <RecentProjectCard project={projects[3]} reverse />
         <RecentProjectCard project={projects[0]}  />
