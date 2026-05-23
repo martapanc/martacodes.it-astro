@@ -13,7 +13,7 @@ interface SkillsProps {
 const SkillSummary = ({homePage}: SkillsProps) => {
     return (
         <div className='flex flex-col'>
-            <div className='tracking-widest text-sm font-semibold text-slate-500 mb-5 text-end'>
+            <div className='tracking-widest text-sm font-semibold text-slate-600 dark:text-slate-400 mb-5 text-end'>
                 SOFTWARE DEVELOPMENT
             </div>
             <div className='flex md:flex-row flex-col-reverse gap-3 w-full justify-between'>

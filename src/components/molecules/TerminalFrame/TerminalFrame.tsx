@@ -22,12 +22,12 @@ const TerminalFrame = ({ className, fileName, fileMeta, children }: TerminalFram
         <div className='w-3 h-3 rounded-full me-1.5 bg-terminal-green'></div>
       </div>
       {fileName && (
-        <span className='font-mono text-[11px] font-medium text-gray-600 dark:text-gray-400'>
-          {stem}<span className='text-gray-500'>{ext}</span>
+        <span className='font-mono text-[11px] font-medium text-gray-700 dark:text-gray-300'>
+          {stem}<span className='text-gray-600 dark:text-gray-400'>{ext}</span>
         </span>
       )}
       {fileMeta && (
-        <span className='font-mono text-[11px] text-gray-500 ml-auto'>{fileMeta}</span>
+        <span className='font-mono text-[11px] text-gray-600 dark:text-gray-400 ml-auto'>{fileMeta}</span>
       )}
     </div>
     <div className='flex-1 min-h-0'>

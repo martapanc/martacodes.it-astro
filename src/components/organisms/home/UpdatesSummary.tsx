@@ -11,7 +11,7 @@ interface UpdatesProps {
 const UpdatesSummary = ({ updates }: UpdatesProps) => {
   return (
     <div className='flex flex-col w-full'>
-      <div className='tracking-widest text-sm font-semibold text-slate-500 mb-5 text-end'>
+      <div className='tracking-widest text-sm font-semibold text-slate-600 dark:text-slate-400 mb-5 text-end'>
         UPDATES
       </div>
       <div className='flex md:flex-row flex-col gap-6 w-full justify-between'>

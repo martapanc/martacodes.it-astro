@@ -5,7 +5,7 @@
     "href": "https://www.manchester.ac.uk/study/masters/courses/list/02069/msc-advanced-computer-science/",
     "classes": "ms-0.5",
     "color": "#6B2C91",
-    "colorDark": "#935FB2",
+    "colorDark": "#9F73BA",
     "alt": "University of Manchester",
     "flag": "GB"
   },
@@ -14,7 +14,7 @@
     "label": "UniBZ",
     "href": "https://www.unibz.it/en/faculties/engineering/bachelor-computer-science/",
     "classes": "ms-1",
-    "color": "#007BE4",
+    "color": "#0267C0",
     "colorDark": "#63A8E4",
     "alt": "UniBZ - Free University of Bolzano",
     "flag": "IT"
@@ -25,7 +25,7 @@
     "href": "https://charleston.edu/compsci/index.php",
     "classes": "mx-1",
     "color": "#6C202A",
-    "colorDark": "#A23846",
+    "colorDark": "#C9646E",
     "alt": "College of Charleston",
     "flag": "US"
   }

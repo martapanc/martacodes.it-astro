@@ -45,7 +45,7 @@ const RecentProjectCard = ({
         />
       </div>
       <div className='flex flex-col w-full md:1/2 lg:w-2/3'>
-        <h4>{project.title}</h4>
+        <h3 className="text-lg">{project.title}</h3>
 
         <ReactMarkdown rehypePlugins={[rehypeRaw]}>
           {project.mediumDescription ?? project.longDescription}
@@ -58,7 +58,7 @@ const RecentProjectCard = ({
                 const IconComponent = toolIconMapping[tool];
                 return (
                   IconComponent && (
-                    <span key={tool} className='me-1' aria-label={tool}>
+                    <span key={tool} className='me-1' role='img' aria-label={tool}>
                       <IconComponent />
                     </span>
                   )

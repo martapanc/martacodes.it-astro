@@ -15,7 +15,7 @@ interface ProjectsProps {
 const Projects = ({ projects }: ProjectsProps) => {
   return (
     <div className='flex flex-col'>
-      <div className='tracking-widest text-sm font-semibold text-slate-500 mb-5'>
+      <div className='tracking-widest text-sm font-semibold text-slate-600 dark:text-slate-400 mb-5'>
         RECENT PROJECTS
       </div>
       <div className='flex flex-col gap-6 w-full'>

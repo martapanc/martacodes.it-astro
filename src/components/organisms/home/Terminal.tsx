@@ -4,14 +4,59 @@ import { useTheme } from '@/hooks/useTheme';
 import React, { useEffect, useState } from 'react';
 import TerminalFrame from '@/components/molecules/TerminalFrame/TerminalFrame';
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import {
-  atomOneLight,
-  darcula,
-} from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+
+// Dark theme: colours taken from martacodes-hero-iteration.html
+const customDark: { [key: string]: React.CSSProperties } = {
+  hljs:                  { background: 'transparent', color: '#E2E8F0' },
+  'hljs-keyword':        { color: '#C792EA' },
+  'hljs-title':          { color: '#82AAFF' },
+  'hljs-title.class_':   { color: '#82AAFF' },
+  'hljs-title.function_':{ color: '#82AAFF' },
+  'hljs-string':         { color: '#C3E88D' },
+  'hljs-number':         { color: '#F78C6C' },
+  'hljs-attr':           { color: '#FFCB6B' },
+  'hljs-property':       { color: '#FFCB6B' },
+  'hljs-comment':        { color: '#5B6886', fontStyle: 'italic' },
+  'hljs-punctuation':    { color: '#A6ACCD' },
+  'hljs-operator':       { color: '#A6ACCD' },
+  'hljs-built_in':       { color: '#82AAFF' },
+  'hljs-literal':        { color: '#F78C6C' },
+  'hljs-type':           { color: '#82AAFF' },
+  'hljs-variable':       { color: '#E2E8F0' },
+  'hljs-params':         { color: '#E2E8F0' },
+  'hljs-meta':           { color: '#7B89A8' },
+  'hljs-tag':            { color: '#C792EA' },
+  'hljs-name':           { color: '#C792EA' },
+  'hljs-symbol':         { color: '#FFCB6B' },
+};
+
+// Light theme: same hues darkened for contrast on light background
+const customLight: { [key: string]: React.CSSProperties } = {
+  hljs:                  { background: 'transparent', color: '#14213D' },
+  'hljs-keyword':        { color: '#7C3AED' },
+  'hljs-title':          { color: '#1D4ED8' },
+  'hljs-title.class_':   { color: '#1D4ED8' },
+  'hljs-title.function_':{ color: '#1D4ED8' },
+  'hljs-string':         { color: '#15803D' },
+  'hljs-number':         { color: '#C2410C' },
+  'hljs-attr':           { color: '#A16207' },
+  'hljs-property':       { color: '#A16207' },
+  'hljs-comment':        { color: '#6B7280', fontStyle: 'italic' },
+  'hljs-punctuation':    { color: '#4B5563' },
+  'hljs-operator':       { color: '#4B5563' },
+  'hljs-built_in':       { color: '#1D4ED8' },
+  'hljs-literal':        { color: '#C2410C' },
+  'hljs-type':           { color: '#0F766E' },
+  'hljs-variable':       { color: '#14213D' },
+  'hljs-params':         { color: '#14213D' },
+  'hljs-meta':           { color: '#6B7280' },
+  'hljs-tag':            { color: '#7C3AED' },
+  'hljs-name':           { color: '#7C3AED' },
+  'hljs-symbol':         { color: '#A16207' },
+};
+import type { CodeSnippet } from '@/types/CodeSnippet';
 import Typed from 'typed.js';
 import type { TypedOptions } from 'typed.js';
-
-import type { CodeSnippet } from '@/types/CodeSnippet';
 
 export interface CodeSnippetsProps {
   codeSnippets: CodeSnippet[];
@@ -19,12 +64,9 @@ export interface CodeSnippetsProps {
 
 const Terminal = ({ codeSnippets }: CodeSnippetsProps) => {
   const [loading, setLoading] = useState(true);
-  const [ideStyle, setIdeStyle] = useState(atomOneLight);
   const { theme } = useTheme();
 
-  useEffect(() => {
-    setIdeStyle(theme === 'dark' ? darcula : atomOneLight);
-  }, [theme]);
+  const ideStyle = theme === 'dark' ? customDark : customLight;
 
   useEffect(() => {
     setTimeout(() => {
@@ -58,7 +100,7 @@ const Terminal = ({ codeSnippets }: CodeSnippetsProps) => {
         };
       }
     }
-  }, [loading]);
+  }, [loading, theme]);
 
   return (
     <TerminalFrame

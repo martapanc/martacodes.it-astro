@@ -54,7 +54,7 @@ const Intro = ({ greeting, shortInfo, codeSnippets }: IntroProps) => {
           <ButtonLink
             href='/projects'
             variant='primary'
-            className='rounded-full px-5 py-1.25 text-sm dark:bg-blue-900 hover:dark:bg-blue-800 h-8 sm:h-9'
+            className='rounded-full px-5 py-1.25 text-sm bg-blue-600 hover:bg-blue-700 dark:bg-blue-900 hover:dark:bg-blue-800 h-8 sm:h-9'
           >
             View my work →
           </ButtonLink>

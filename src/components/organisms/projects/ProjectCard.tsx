@@ -90,7 +90,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               const IconComponent = toolIconMapping[tool];
               return (
                 IconComponent && (
-                  <span key={tool} className='me-1' aria-label={tool}>
+                  <span key={tool} className='me-1' role='img' aria-label={tool}>
                     <IconComponent />
                   </span>
                 )

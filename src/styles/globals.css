@@ -27,16 +27,16 @@
   --color-terminal-red: #fe5f57;
   --color-terminal-amber: #febc2e;
   --color-terminal-green: #28c840;
-  --color-terminal-light: #f1f1f1;
-  --color-terminal-bar-light: #dedede;
-  --color-terminal-border-light: #d6d4d4;
+  --color-terminal-light: #F9FAFB;
+  --color-terminal-bar-light: #ecebeb;
+  --color-terminal-border-light: #dfdede;
   --color-terminal-dark: #0E1726;
   --color-terminal-bar-dark: #182239;
   --color-terminal-border-dark: #2a3550;
 
   /* Home section colors */
-  --color-home-section2: #c1d1e7;
-  --color-home-section3: #cfdff4;
+  --color-home-section2: #d2e0f3;
+  --color-home-section3: #e7f3ff;
   --color-home-section2-dark: #0D1323;
   --color-home-section3-dark: #0e131d;
   --color-home-section4-dark: #08101c;
@@ -278,9 +278,17 @@
     text-decoration: none;
   }
 
+  .dark p a {
+    color: var(--color-primary-400);
+  }
+
   p a:hover {
     color: var(--color-primary-700);
     text-decoration: underline;
+  }
+
+  .dark p a:hover {
+    color: var(--color-primary-300);
   }
 
   .short-p {
