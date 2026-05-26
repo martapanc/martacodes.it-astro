@@ -16,7 +16,7 @@ const ThemeToggle = () => {
 
   return (
     <div className={clsx('flex items-center gap-2 px-2', mounted ? '' : 'invisible')}>
-      <Classic onClick={() => setTheme(isDark ? 'light' : 'dark')} />
+      <Classic className="cursor-pointer" onClick={() => setTheme(isDark ? 'light' : 'dark')} />
     </div>
   );
 };
