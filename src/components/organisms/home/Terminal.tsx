@@ -109,7 +109,7 @@ const Terminal = ({ codeSnippets }: CodeSnippetsProps) => {
         fileMeta="last modified 2026-05-24"
     >
       <div className='h-full rounded-b-lg border-double bg-terminal-light dark:bg-terminal-dark px-4 pt-2.5 pb-6'>
-        <div id='typed-strings'>
+        <div id='typed-strings' style={{ display: 'none' }}>
           {loading ? <span className='cursor-blink'>_</span> : null}
           {!loading &&
             codeSnippets.map((snippet) => (
